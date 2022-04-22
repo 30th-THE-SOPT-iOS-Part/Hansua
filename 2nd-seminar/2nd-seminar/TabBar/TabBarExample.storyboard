@@ -62,6 +62,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mR3-XY-Hyg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3ei-WA-xIB">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                     </tabBar>
@@ -77,12 +78,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="heart.text.square" catalog="system" width="128" height="114"/>
-        <image name="heart.text.square.fill" catalog="system" width="128" height="114"/>
-        <image name="suit.heart" catalog="system" width="128" height="109"/>
-        <image name="suit.heart.fill" catalog="system" width="128" height="109"/>
-        <image name="trash" catalog="system" width="121" height="128"/>
-        <image name="trash.fill" catalog="system" width="121" height="128"/>
+        <image name="heart.text.square" catalog="system" width="32" height="32"/>
+        <image name="heart.text.square.fill" catalog="system" width="32" height="32"/>
+        <image name="suit.heart" catalog="system" width="32" height="32"/>
+        <image name="suit.heart.fill" catalog="system" width="32" height="32"/>
+        <image name="trash" catalog="system" width="32" height="32"/>
+        <image name="trash.fill" catalog="system" width="32" height="32"/>
         <systemColor name="tertiarySystemFillColor">
             <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
