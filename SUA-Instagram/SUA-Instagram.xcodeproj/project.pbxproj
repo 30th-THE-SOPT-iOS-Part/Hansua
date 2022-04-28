@@ -12,6 +12,19 @@
 		E5055921281A7CED008AED6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055920281A7CED008AED6C /* ViewController.swift */; };
 		E5055923281A7CF8008AED6C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055922281A7CF8008AED6C /* Color.swift */; };
 		E5055928281A7D63008AED6C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055927281A7D63008AED6C /* Image.swift */; };
+		E5055930281A7F1C008AED6C /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E505592F281A7F1C008AED6C /* Auth.storyboard */; };
+		E5055932281A7F60008AED6C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5055931281A7F60008AED6C /* Login.storyboard */; };
+		E5055935281A8519008AED6C /* HomeTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5055934281A8519008AED6C /* HomeTab.storyboard */; };
+		E5055937281A8529008AED6C /* SearchTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5055936281A8529008AED6C /* SearchTab.storyboard */; };
+		E5055939281A8535008AED6C /* ReelsTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5055938281A8535008AED6C /* ReelsTab.storyboard */; };
+		E505593B281A855C008AED6C /* ShopTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E505593A281A855C008AED6C /* ShopTab.storyboard */; };
+		E505593D281A856C008AED6C /* ProfileTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E505593C281A856C008AED6C /* ProfileTab.storyboard */; };
+		E5055944281A85ED008AED6C /* ProfileTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505593E281A85ED008AED6C /* ProfileTabController.swift */; };
+		E5055945281A85ED008AED6C /* SearchTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505593F281A85ED008AED6C /* SearchTabController.swift */; };
+		E5055946281A85ED008AED6C /* ShopTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055940281A85ED008AED6C /* ShopTabController.swift */; };
+		E5055947281A85ED008AED6C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055941281A85ED008AED6C /* TabBarController.swift */; };
+		E5055948281A85ED008AED6C /* ReelsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055942281A85ED008AED6C /* ReelsTabController.swift */; };
+		E5055949281A85ED008AED6C /* HomeTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055943281A85ED008AED6C /* HomeTabController.swift */; };
 		E508F19528031A78009C4A36 /* SignInFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19428031A78009C4A36 /* SignInFirstViewController.swift */; };
 		E508F19728034E7D009C4A36 /* SignInSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */; };
 		E508F19928035963009C4A36 /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19828035963009C4A36 /* CompleteViewController.swift */; };
@@ -29,6 +42,19 @@
 		E5055920281A7CED008AED6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5055922281A7CF8008AED6C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		E5055927281A7D63008AED6C /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E505592F281A7F1C008AED6C /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		E5055931281A7F60008AED6C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E5055934281A8519008AED6C /* HomeTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeTab.storyboard; sourceTree = "<group>"; };
+		E5055936281A8529008AED6C /* SearchTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchTab.storyboard; sourceTree = "<group>"; };
+		E5055938281A8535008AED6C /* ReelsTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReelsTab.storyboard; sourceTree = "<group>"; };
+		E505593A281A855C008AED6C /* ShopTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShopTab.storyboard; sourceTree = "<group>"; };
+		E505593C281A856C008AED6C /* ProfileTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileTab.storyboard; sourceTree = "<group>"; };
+		E505593E281A85ED008AED6C /* ProfileTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTabController.swift; sourceTree = "<group>"; };
+		E505593F281A85ED008AED6C /* SearchTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTabController.swift; sourceTree = "<group>"; };
+		E5055940281A85ED008AED6C /* ShopTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTabController.swift; sourceTree = "<group>"; };
+		E5055941281A85ED008AED6C /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E5055942281A85ED008AED6C /* ReelsTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReelsTabController.swift; sourceTree = "<group>"; };
+		E5055943281A85ED008AED6C /* HomeTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabController.swift; sourceTree = "<group>"; };
 		E508F19428031A78009C4A36 /* SignInFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInFirstViewController.swift; sourceTree = "<group>"; };
 		E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSecondViewController.swift; sourceTree = "<group>"; };
 		E508F19828035963009C4A36 /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +94,8 @@
 		E505592A281A7DE5008AED6C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E505592E281A7EAF008AED6C /* TabBarControllers */,
+				E505592D281A7EA3008AED6C /* AuthControllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -82,8 +110,48 @@
 		E505592C281A7E03008AED6C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E5055933281A84FD008AED6C /* TabBar */,
+				E54498BD27FF665400066D6A /* Main.storyboard */,
+				E505592F281A7F1C008AED6C /* Auth.storyboard */,
+				E5055931281A7F60008AED6C /* Login.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E505592D281A7EA3008AED6C /* AuthControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E54498BB27FF665400066D6A /* ViewController.swift */,
+				E508F19428031A78009C4A36 /* SignInFirstViewController.swift */,
+				E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */,
+				E508F19828035963009C4A36 /* CompleteViewController.swift */,
+			);
+			path = AuthControllers;
+			sourceTree = "<group>";
+		};
+		E505592E281A7EAF008AED6C /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5055943281A85ED008AED6C /* HomeTabController.swift */,
+				E505593E281A85ED008AED6C /* ProfileTabController.swift */,
+				E5055942281A85ED008AED6C /* ReelsTabController.swift */,
+				E505593F281A85ED008AED6C /* SearchTabController.swift */,
+				E5055940281A85ED008AED6C /* ShopTabController.swift */,
+				E5055941281A85ED008AED6C /* TabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		E5055933281A84FD008AED6C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E5055934281A8519008AED6C /* HomeTab.storyboard */,
+				E5055936281A8529008AED6C /* SearchTab.storyboard */,
+				E5055938281A8535008AED6C /* ReelsTab.storyboard */,
+				E505593A281A855C008AED6C /* ShopTab.storyboard */,
+				E505593C281A856C008AED6C /* ProfileTab.storyboard */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		E54498AB27FF665400066D6A = {
@@ -114,11 +182,6 @@
 				E54498C027FF665500066D6A /* Assets.xcassets */,
 				E54498C227FF665500066D6A /* LaunchScreen.storyboard */,
 				E54498C527FF665500066D6A /* Info.plist */,
-				E54498BD27FF665400066D6A /* Main.storyboard */,
-				E54498BB27FF665400066D6A /* ViewController.swift */,
-				E508F19428031A78009C4A36 /* SignInFirstViewController.swift */,
-				E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */,
-				E508F19828035963009C4A36 /* CompleteViewController.swift */,
 			);
 			path = "SUA-Instagram";
 			sourceTree = "<group>";
@@ -181,9 +244,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E505593D281A856C008AED6C /* ProfileTab.storyboard in Resources */,
+				E5055930281A7F1C008AED6C /* Auth.storyboard in Resources */,
 				E54498C427FF665500066D6A /* LaunchScreen.storyboard in Resources */,
+				E505593B281A855C008AED6C /* ShopTab.storyboard in Resources */,
+				E5055939281A8535008AED6C /* ReelsTab.storyboard in Resources */,
 				E54498C127FF665500066D6A /* Assets.xcassets in Resources */,
+				E5055937281A8529008AED6C /* SearchTab.storyboard in Resources */,
+				E5055932281A7F60008AED6C /* Login.storyboard in Resources */,
 				E54498BF27FF665400066D6A /* Main.storyboard in Resources */,
+				E5055935281A8519008AED6C /* HomeTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +265,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5055921281A7CED008AED6C /* ViewController.swift in Sources */,
+				E5055944281A85ED008AED6C /* ProfileTabController.swift in Sources */,
+				E5055945281A85ED008AED6C /* SearchTabController.swift in Sources */,
+				E5055947281A85ED008AED6C /* TabBarController.swift in Sources */,
 				E508F19728034E7D009C4A36 /* SignInSecondViewController.swift in Sources */,
 				E5055923281A7CF8008AED6C /* Color.swift in Sources */,
 				E54498BC27FF665400066D6A /* ViewController.swift in Sources */,
 				E508F19528031A78009C4A36 /* SignInFirstViewController.swift in Sources */,
 				E54498B827FF665400066D6A /* AppDelegate.swift in Sources */,
+				E5055948281A85ED008AED6C /* ReelsTabController.swift in Sources */,
 				E54498BA27FF665400066D6A /* SceneDelegate.swift in Sources */,
 				E508F19928035963009C4A36 /* CompleteViewController.swift in Sources */,
 				E505591F281A7CD5008AED6C /* Storyboard.swift in Sources */,
+				E5055949281A85ED008AED6C /* HomeTabController.swift in Sources */,
+				E5055946281A85ED008AED6C /* ShopTabController.swift in Sources */,
 				E5055928281A7D63008AED6C /* Image.swift in Sources */,
 				E505591A281A7C9B008AED6C /* Const.swift in Sources */,
 			);
