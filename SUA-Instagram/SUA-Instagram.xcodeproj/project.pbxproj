@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E505591A281A7C9B008AED6C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055919281A7C9B008AED6C /* Const.swift */; };
+		E505591F281A7CD5008AED6C /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505591E281A7CD5008AED6C /* Storyboard.swift */; };
+		E5055921281A7CED008AED6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055920281A7CED008AED6C /* ViewController.swift */; };
+		E5055923281A7CF8008AED6C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055922281A7CF8008AED6C /* Color.swift */; };
+		E5055928281A7D63008AED6C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055927281A7D63008AED6C /* Image.swift */; };
 		E508F19528031A78009C4A36 /* SignInFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19428031A78009C4A36 /* SignInFirstViewController.swift */; };
 		E508F19728034E7D009C4A36 /* SignInSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */; };
 		E508F19928035963009C4A36 /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19828035963009C4A36 /* CompleteViewController.swift */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5055919281A7C9B008AED6C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		E505591E281A7CD5008AED6C /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		E5055920281A7CED008AED6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5055922281A7CF8008AED6C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E5055927281A7D63008AED6C /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		E508F19428031A78009C4A36 /* SignInFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInFirstViewController.swift; sourceTree = "<group>"; };
 		E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSecondViewController.swift; sourceTree = "<group>"; };
 		E508F19828035963009C4A36 /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +53,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5055918281A7C58008AED6C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E5055919281A7C9B008AED6C /* Const.swift */,
+				E5055927281A7D63008AED6C /* Image.swift */,
+				E505591E281A7CD5008AED6C /* Storyboard.swift */,
+				E5055920281A7CED008AED6C /* ViewController.swift */,
+				E5055922281A7CF8008AED6C /* Color.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E505592A281A7DE5008AED6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E505592B281A7DF2008AED6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E505592C281A7E03008AED6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E54498AB27FF665400066D6A = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +105,10 @@
 		E54498B627FF665400066D6A /* SUA-Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				E505592C281A7E03008AED6C /* View */,
+				E505592B281A7DF2008AED6C /* Extensions */,
+				E505592A281A7DE5008AED6C /* Controllers */,
+				E5055918281A7C58008AED6C /* Constants */,
 				E54498B727FF665400066D6A /* AppDelegate.swift */,
 				E54498B927FF665400066D6A /* SceneDelegate.swift */,
 				E54498C027FF665500066D6A /* Assets.xcassets */,
@@ -147,12 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5055921281A7CED008AED6C /* ViewController.swift in Sources */,
 				E508F19728034E7D009C4A36 /* SignInSecondViewController.swift in Sources */,
+				E5055923281A7CF8008AED6C /* Color.swift in Sources */,
 				E54498BC27FF665400066D6A /* ViewController.swift in Sources */,
 				E508F19528031A78009C4A36 /* SignInFirstViewController.swift in Sources */,
 				E54498B827FF665400066D6A /* AppDelegate.swift in Sources */,
 				E54498BA27FF665400066D6A /* SceneDelegate.swift in Sources */,
 				E508F19928035963009C4A36 /* CompleteViewController.swift in Sources */,
+				E505591F281A7CD5008AED6C /* Storyboard.swift in Sources */,
+				E5055928281A7D63008AED6C /* Image.swift in Sources */,
+				E505591A281A7C9B008AED6C /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

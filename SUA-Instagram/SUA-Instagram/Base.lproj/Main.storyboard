@@ -24,20 +24,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fTC-dg-fQm">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Instagram Black Logo" translatesAutoresizingMaskIntoConstraints="NO" id="sq8-LN-b4W">
                                         <rect key="frame" x="0.0" y="155" width="375" height="50"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Instagram Black Logo" translatesAutoresizingMaskIntoConstraints="NO" id="sq8-LN-b4W">
-                                                <rect key="frame" x="100" y="0.0" width="175" height="50"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Xkh-2Y-yBF"/>
-                                            <constraint firstAttribute="width" constant="375" id="gWC-ZB-g1i"/>
-                                            <constraint firstItem="sq8-LN-b4W" firstAttribute="centerX" secondItem="fTC-dg-fQm" secondAttribute="centerX" id="qLE-TP-D6n"/>
-                                        </constraints>
-                                    </view>
+                                    </imageView>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kut-ri-sc4">
                                         <rect key="frame" x="0.0" y="310" width="375" height="131"/>
                                         <subviews>
@@ -100,14 +89,14 @@
                                         <rect key="frame" x="0.0" y="701" width="375" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="계정이 없으신가용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="342-Zh-qiX">
-                                                <rect key="frame" x="0.0" y="14" width="343" height="20.333333333333371"/>
+                                                <rect key="frame" x="66" y="5" width="129" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvt-vh-Mse">
-                                                <rect key="frame" x="63" y="9" width="217" height="31"/>
+                                                <rect key="frame" x="203" y="0.0" width="84" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="가입하기" titleAlignment="center">
@@ -123,10 +112,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="xky-g6-AcE" firstAttribute="top" secondItem="kut-ri-sc4" secondAttribute="bottom" id="8gS-kU-GRm"/>
-                                    <constraint firstItem="kut-ri-sc4" firstAttribute="top" secondItem="fTC-dg-fQm" secondAttribute="bottom" constant="40" id="EKR-kd-FAo"/>
                                     <constraint firstItem="kut-ri-sc4" firstAttribute="centerX" secondItem="jVV-wM-7sy" secondAttribute="centerX" id="OKo-Mt-sh2"/>
-                                    <constraint firstItem="kut-ri-sc4" firstAttribute="top" secondItem="fTC-dg-fQm" secondAttribute="bottom" id="UP5-DE-1zL"/>
-                                    <constraint firstItem="fTC-dg-fQm" firstAttribute="top" secondItem="80o-7g-d6I" secondAttribute="bottom" constant="78" id="qsr-0E-uaA"/>
                                 </constraints>
                             </stackView>
                         </subviews>
