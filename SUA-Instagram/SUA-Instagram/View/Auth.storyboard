@@ -53,7 +53,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Gbb-8t-rxT" kind="show" id="cNW-iQ-rnD"/>
+                                            <action selector="nextButtonDidTap:" destination="nIe-va-zIz" eventType="touchUpInside" id="m1M-4W-ZyE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -77,8 +77,8 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="uor-kE-EZl"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="nameRegisterTextField" destination="SnI-YK-fMD" id="cKe-Tl-CMg"/>
                         <outlet property="nextButton" destination="5gK-Vq-w9m" id="6a6-lM-XbO"/>
+                        <outlet property="usernameTextField" destination="SnI-YK-fMD" id="Xm5-D8-qCz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F2Z-Hr-hyh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -90,7 +90,7 @@
             <objects>
                 <viewController storyboardIdentifier="SignInSecondViewController" id="Gbb-8t-rxT" customClass="SignInSecondViewController" customModule="SUA_Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WtP-Aq-aam">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="hdb-XD-42F">

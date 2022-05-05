@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M7h-K8-TaO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController restorationIdentifier="ViewController" storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="SUA_Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,9 +74,6 @@
                                                 <rect key="frame" x="16" y="3" width="343" height="44"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="로그인"/>
-                                                <connections>
-                                                    <action selector="loginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NP3-WQ-tDx"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -102,9 +99,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="가입하기" titleAlignment="center">
                                                     <color key="baseForegroundColor" systemColor="tintColor"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="signinButtonDipTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fwq-IH-97e"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -120,21 +114,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="GAv-dA-acF"/>
-                    <connections>
-                        <outlet property="idTextField" destination="Tmz-ns-akb" id="0oI-zt-avu"/>
-                        <outlet property="loginButton" destination="DGa-24-43E" id="wkf-ae-7cr"/>
-                        <outlet property="pwTextField" destination="E1T-bM-Hma" id="LYv-4q-e4s"/>
-                        <outlet property="signinButton" destination="Dvt-vh-Mse" id="g22-SU-tXg"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-15.199999999999999" y="78.325123152709367"/>
         </scene>
-        <!--Sign In First View Controller-->
+        <!--View Controller-->
         <scene sceneID="DZ7-KS-EEt">
             <objects>
-                <viewController restorationIdentifier="SignInFirstViewController" storyboardIdentifier="SignInFirstViewController" id="dgI-iE-Kp6" customClass="SignInFirstViewController" customModule="SUA_Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dgI-iE-Kp6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NHO-EY-x6C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,6 +259,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDD-Sc-xPl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-810" y="78"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="fOg-wq-wcD">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="sPo-rc-Q02" customClass="MainViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HfE-pU-Sic">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Iol-pg-cok"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OyK-cX-xmp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1634" y="-61"/>
         </scene>
     </scenes>
     <resources>

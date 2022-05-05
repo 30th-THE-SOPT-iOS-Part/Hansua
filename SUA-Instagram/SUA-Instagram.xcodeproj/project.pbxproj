@@ -25,6 +25,9 @@
 		E5055947281A85ED008AED6C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055941281A85ED008AED6C /* TabBarController.swift */; };
 		E5055948281A85ED008AED6C /* ReelsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055942281A85ED008AED6C /* ReelsTabController.swift */; };
 		E5055949281A85ED008AED6C /* HomeTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5055943281A85ED008AED6C /* HomeTabController.swift */; };
+		E505594B281A8A48008AED6C /* UIButton++.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505594A281A8A48008AED6C /* UIButton++.swift */; };
+		E505594D281A8A61008AED6C /* UITextField++.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505594C281A8A61008AED6C /* UITextField++.swift */; };
+		E505594F281A8ADD008AED6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505594E281A8ADD008AED6C /* MainViewController.swift */; };
 		E508F19528031A78009C4A36 /* SignInFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19428031A78009C4A36 /* SignInFirstViewController.swift */; };
 		E508F19728034E7D009C4A36 /* SignInSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */; };
 		E508F19928035963009C4A36 /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508F19828035963009C4A36 /* CompleteViewController.swift */; };
@@ -55,6 +58,9 @@
 		E5055941281A85ED008AED6C /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E5055942281A85ED008AED6C /* ReelsTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReelsTabController.swift; sourceTree = "<group>"; };
 		E5055943281A85ED008AED6C /* HomeTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabController.swift; sourceTree = "<group>"; };
+		E505594A281A8A48008AED6C /* UIButton++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton++.swift"; sourceTree = "<group>"; };
+		E505594C281A8A61008AED6C /* UITextField++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField++.swift"; sourceTree = "<group>"; };
+		E505594E281A8ADD008AED6C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E508F19428031A78009C4A36 /* SignInFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInFirstViewController.swift; sourceTree = "<group>"; };
 		E508F19628034E7D009C4A36 /* SignInSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSecondViewController.swift; sourceTree = "<group>"; };
 		E508F19828035963009C4A36 /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 			children = (
 				E505592E281A7EAF008AED6C /* TabBarControllers */,
 				E505592D281A7EA3008AED6C /* AuthControllers */,
+				E505594E281A8ADD008AED6C /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -103,6 +110,8 @@
 		E505592B281A7DF2008AED6C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E505594A281A8A48008AED6C /* UIButton++.swift */,
+				E505594C281A8A61008AED6C /* UITextField++.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -269,8 +278,10 @@
 				E5055945281A85ED008AED6C /* SearchTabController.swift in Sources */,
 				E5055947281A85ED008AED6C /* TabBarController.swift in Sources */,
 				E508F19728034E7D009C4A36 /* SignInSecondViewController.swift in Sources */,
+				E505594B281A8A48008AED6C /* UIButton++.swift in Sources */,
 				E5055923281A7CF8008AED6C /* Color.swift in Sources */,
 				E54498BC27FF665400066D6A /* ViewController.swift in Sources */,
+				E505594D281A8A61008AED6C /* UITextField++.swift in Sources */,
 				E508F19528031A78009C4A36 /* SignInFirstViewController.swift in Sources */,
 				E54498B827FF665400066D6A /* AppDelegate.swift in Sources */,
 				E5055948281A85ED008AED6C /* ReelsTabController.swift in Sources */,
@@ -281,6 +292,7 @@
 				E5055946281A85ED008AED6C /* ShopTabController.swift in Sources */,
 				E5055928281A7D63008AED6C /* Image.swift in Sources */,
 				E505591A281A7C9B008AED6C /* Const.swift in Sources */,
+				E505594F281A8ADD008AED6C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
