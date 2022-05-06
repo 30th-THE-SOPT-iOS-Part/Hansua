@@ -41,6 +41,8 @@
 		B5EF3C0A28058BFA0099F84B /* UIViewController++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EF3C0928058BFA0099F84B /* UIViewController++.swift */; };
 		E5546309282283AE0017C85A /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5546307282283AE0017C85A /* FeedTableViewCell.swift */; };
 		E554630A282283AE0017C85A /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5546308282283AE0017C85A /* FeedTableViewCell.xib */; };
+		E554630D2825559B0017C85A /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554630B2825559B0017C85A /* StoryTableViewCell.swift */; };
+		E554630E2825559B0017C85A /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E554630C2825559B0017C85A /* StoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		B5EF3C0928058BFA0099F84B /* UIViewController++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController++.swift"; sourceTree = "<group>"; };
 		E5546307282283AE0017C85A /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		E5546308282283AE0017C85A /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		E554630B2825559B0017C85A /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		E554630C2825559B0017C85A /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,8 @@
 			children = (
 				E5546307282283AE0017C85A /* FeedTableViewCell.swift */,
 				E5546308282283AE0017C85A /* FeedTableViewCell.xib */,
+				E554630B2825559B0017C85A /* StoryTableViewCell.swift */,
+				E554630C2825559B0017C85A /* StoryTableViewCell.xib */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C9646E280C6B110061556F /* ProfileTab.storyboard in Resources */,
+				E554630E2825559B0017C85A /* StoryTableViewCell.xib in Resources */,
 				B55782F827FAF39000C20DF0 /* LaunchScreen.storyboard in Resources */,
 				B5C96466280C6ADF0061556F /* HomeTab.storyboard in Resources */,
 				B5C9646A280C6AFD0061556F /* ReelsTab.storyboard in Resources */,
@@ -307,6 +314,7 @@
 				B5B4E0FF280C80330052AD7F /* ReelsTabViewController.swift in Sources */,
 				B55782F027FAF38E00C20DF0 /* LoginViewController.swift in Sources */,
 				B527D1A328073737009F3A4B /* Storyboard.swift in Sources */,
+				E554630D2825559B0017C85A /* StoryTableViewCell.swift in Sources */,
 				B5B4E0FD280C801D0052AD7F /* SearchTabViewController.swift in Sources */,
 				B557830027FAFB0800C20DF0 /* MakeNameViewController.swift in Sources */,
 				B5B4E0F7280C76250052AD7F /* TabBarController.swift in Sources */,
